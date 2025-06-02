@@ -29,13 +29,17 @@ section {
   min-width: 10px;
   padding: 1rem 0;
   min-height: 300px;
+  display: flex;
+  background-color: yellow;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
 }
 
 .col {
   min-width: 20px;
   min-height: 20px;
-  margin: 10px;
-  width: 20%;
+  flex-grow: 1;
 }
 
 .trolley-grey {
