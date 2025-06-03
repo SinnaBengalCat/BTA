@@ -23,6 +23,7 @@ body {
 
 .card img {
   width: 100%;
+
   display: block;
 }
 
@@ -31,11 +32,25 @@ body {
   padding: 5px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .row {
     display: flex;
     gap: 10px;
-    padding: 50px;
+  }
+
+  body {
     background-color: yellow;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    background-color: red;
   }
 }
