@@ -5,6 +5,44 @@
 div {
   min-height: 100px;
   min-width: 100px;
-  border: 1px solid black;
+  border: 5px solid black;
   margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.huber {
+  border-color: rgb(218, 30, 127);
+  color: blue;
+}
+
+.huber div {
+  border-color: green;
+}
+
+#lisa {
+  border-color: pink;
+}
+
+.meier {
+  border-color: blueviolet;
+}
+
+#lisa.meier {
+  border-color: yellow;
+}
+
+div#lisa.meier {
+  border-color: brown;
+}
+
+div div#lisa.meier {
+  border-color: burlywood;
+}
+
+div.huber div#lisa.meier {
+  border-color: cyan;
+}
+
+html body div.huber div#lisa.meier {
+  border-color: chartreuse;
 }
